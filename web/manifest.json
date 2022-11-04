@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "mainrepo",
     "short_name": "mainrepo",
+=======
+    "name": "collagecom",
+    "short_name": "collagecom",
+>>>>>>> 69a6ebfda8cb1be9640d28705f891429f94a760c
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
