@@ -1,3 +1,4 @@
+import 'package:college_comrade/components/UikHeaderstart.dart';
 import 'package:college_comrade/screens/UikHomePage.dart';
 import 'package:flutter/material.dart';
 
@@ -18,8 +19,10 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(initialRoute: '/', routes: {
-      '/': (context) => QuestionCard(),
+    return MaterialApp(
+      
+      initialRoute: '/', routes: {
+      '/': (context) => HomeHeader(),
     });
   }
 }

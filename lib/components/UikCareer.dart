@@ -23,8 +23,7 @@ class Career extends StatelessWidget {
           decoration: new BoxDecoration(
             borderRadius: new BorderRadius.circular(16.0),
             color: Color.fromARGB(255, 11, 11, 11),
-            border: Border.all(color: Colors.white)
-            ,
+            border: Border.all(color: Colors.white),
           ),
           child: Column(
             children: [
