@@ -13,19 +13,13 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        
-      ),
-      body:SingleChildScrollView(
-        child:Container(
-          padding:EdgeInsets.all(8),
-          child:Column(children: [
-            Text("hello college comrade")
-          ],)
-
-
-        )
-      )
-    );
+        appBar: AppBar(),
+        body: SingleChildScrollView(
+          
+               child:Container(
+                    padding: EdgeInsets.all(8),
+                    child: Column(
+                      children: [Text("hello college comrade")],
+                    ))));
   }
 }
