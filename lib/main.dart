@@ -1,3 +1,5 @@
+import 'package:college_comrade/Test.dart';
+import 'package:college_comrade/components/UikCardDetails.dart';
 import 'package:college_comrade/screens/UikHomePage.dart';
 import 'package:flutter/material.dart';
 
@@ -16,11 +18,11 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute:'/',
-      routes:{
-        '/':(context)=>HomePage(),
-
-      }
-    );
+      debugShowCheckedModeBanner: false,
+        initialRoute: '/test', routes: {
+      '/': (context) => HomePage(),
+      '/test': (context) => Test(),
+      //  '/login':(context)=>Login(),
+    });
   }
 }
